@@ -86,6 +86,8 @@ public class TestBase {
 
 
          System.out.println("wait.."); //commit
+         System.out.println("wait1");
+         System.out.println("wait2");
 		
 		wait = new WebDriverWait(driver,Duration.ofMillis(3000));
 		act=new Actions(driver);

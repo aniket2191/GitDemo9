@@ -92,6 +92,10 @@ public class TestBase {
          System.out.println("arch1");
          System.out.println("arch1");
          
+         System.out.println("arch2");
+         System.out.println("arch2");
+
+         
          
 		
 		wait = new WebDriverWait(driver,Duration.ofMillis(3000));
